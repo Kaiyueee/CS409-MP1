@@ -4,10 +4,145 @@
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
+        <meta name="description" content="Meet Genggeng, also known as DahDah: a playful orange-and-white cat. A little album of his photos and everyday adventures.">
+        <title>Genggeng · A Little Cat Journal</title>
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="#home" aria-label="Genggeng home">Genggeng<span class="brand-dot" aria-hidden="true">.</span></a>
+                <nav class="site-nav" aria-label="Main navigation">
+                    <a href="#home">Home</a>
+                    <a href="#about">Meet him</a>
+                    <a href="#gallery">The album</a>
+                    <a href="#moments">Little moments</a>
+                    <a href="#contact">Say hello</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- Each full-width section contains a centered, width-limited container. -->
+            <section class="hero section" id="home" aria-labelledby="hero-title">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">A LITTLE CAT, A LOT OF LOVE</p>
+                        <h1 id="hero-title">Hello, I’m<br><span>Genggeng.</span></h1>
+                        <p class="hero-description">Also known as DahDah. Four years of curiosity,<br>little adventures, and very important naps.</p>
+                        <a class="button" href="#gallery">Explore the album <span aria-hidden="true">↗</span></a>
+                        <p class="small-note">A little corner of the internet, all about my cat.</p>
+                    </div>
+                    <figure class="hero-photo photo-frame">
+                        <img class="cover-image" src="assets/1.jpg" width="1702" height="1276" alt="Genggeng resting on a book in front of a framed illustration" fetchpriority="high">
+                        <figcaption><span>Meet Genggeng</span><span>MY CAT / MY LITTLE STAR</span></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section about-section" id="about" aria-labelledby="about-title">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">01 / HELLO, GENGGENG</p>
+                        <h2 id="about-title">Small cat. Big personality.</h2>
+                        <p>Orange, white, and always up to something. Meet the cat behind the camera roll.</p>
+                    </div>
+                    <div class="about-grid">
+                        <article class="info-card">
+                            <span class="card-number" aria-hidden="true">01</span>
+                            <h3>The little details</h3>
+                            <dl class="profile-list">
+                                <div><dt>Name</dt><dd>Genggeng</dd></div>
+                                <div><dt>Nickname</dt><dd>DahDah</dd></div>
+                                <div><dt>Age</dt><dd>4 years old</dd></div>
+                                <div><dt>Weight</dt><dd>About 4 kg</dd></div>
+                                <div><dt>Coat</dt><dd>Orange &amp; white</dd></div>
+                                <div><dt>Sex</dt><dd>Male (neutered)</dd></div>
+                                <div><dt>Home since</dt><dd><time datetime="2022-01-01">Jan 1, 2022</time></dd></div>
+                            </dl>
+                        </article>
+                        <article class="info-card">
+                            <span class="card-number" aria-hidden="true">02</span>
+                            <h3>A playful little soul</h3>
+                            <p>Energetic, curious, and full of mischief. Genggeng brings a little extra life to every ordinary day.</p>
+                            <p class="card-note">A little trouble. A lot of love.</p>
+                        </article>
+                        <article class="info-card">
+                            <span class="card-number" aria-hidden="true">03</span>
+                            <h3>His kind of happy</h3>
+                            <p>Going outside, taking walks, and settling down for a good nap. His favorite days make room for all three.</p>
+                            <ul class="interest-tags" aria-label="Favorite activities"><li>Exploring</li><li>Walks</li><li>Naps</li></ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+                <div class="container">
+                    <div class="section-heading heading-row">
+                        <div>
+                            <p class="eyebrow">02 / THE PHOTO ALBUM</p>
+                            <h2 id="gallery-title">The camera loves him.</h2>
+                        </div>
+                        <p>A growing collection of our favorite moments.</p>
+                    </div>
+                    <!-- These three static photos will become the carousel in a later step. -->
+                    <div class="gallery-grid">
+                        <figure class="album-card photo-frame">
+                            <img class="album-image" src="assets/2.jpg" width="2495" height="3326" alt="Genggeng arching his back in a big stretch beside the television" loading="lazy" decoding="async">
+                            <figcaption><span>A very big stretch</span><span>01</span></figcaption>
+                        </figure>
+                        <figure class="album-card photo-frame">
+                            <img class="album-image" src="assets/3.jpg" width="2479" height="3305" alt="Genggeng relaxing on a patterned blanket with his tongue peeking out" loading="lazy" decoding="async">
+                            <figcaption><span>A little tongue-out moment</span><span>02</span></figcaption>
+                        </figure>
+                        <figure class="album-card photo-frame">
+                            <img class="album-image" src="assets/4.jpg" width="3024" height="4032" alt="Genggeng resting his front paws over the sofa edge and looking toward the window" loading="lazy" decoding="async">
+                            <figcaption><span>Paws out, world watching</span><span>03</span></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- This section will receive a fixed background photo later. -->
+            <section class="section memory-section" aria-labelledby="memory-title">
+                <div class="container memory-copy">
+                    <p class="eyebrow">OUR STORY / <time datetime="2022-01-01">JANUARY 1, 2022</time></p>
+                    <h2 id="memory-title">A new year.<br>A new little family member.</h2>
+                    <p>Genggeng came home on January 1, 2022, when he was about two months old. Since then, our days have been filled with little adventures, playful mischief, and plenty of naps.</p>
+                </div>
+            </section>
+
+            <section class="section moments-section" id="moments" aria-labelledby="moments-title">
+                <div class="container moments-grid">
+                    <div class="section-heading">
+                        <p class="eyebrow">03 / LIFE IN MOTION</p>
+                        <h2 id="moments-title">A little life,<br>in motion.</h2>
+                        <p>Some moments deserve more than a photo.<br>A glimpse into Genggeng’s everyday world.</p>
+                        <span class="coming-soon">HOME MOVIE · COMING SOON</span>
+                    </div>
+                    <!-- Replace with an HTML5 video element once a real video is provided. -->
+                    <div class="video-placeholder" role="img" aria-label="Placeholder for a video of Genggeng">
+                        <span class="eyebrow">GENGGENG'S LITTLE FILM</span>
+                        <span class="film-title">The everyday adventures</span>
+                        <span>A little film is on its way</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer section" id="contact" aria-labelledby="footer-title">
+            <div class="container">
+                <p class="eyebrow">04 / WITH LOVE</p>
+                <h2 id="footer-title">Thanks for stopping by.</h2>
+                <p>More Genggeng memories are always on the way.</p>
+                <a class="text-link" href="#home">Back to the top <span aria-hidden="true">↑</span></a>
+                <!-- Add real social links and CSS vector icons in a later step. -->
+                <div class="footer-bottom">
+                    <a class="brand" href="#home">Genggeng<span class="brand-dot" aria-hidden="true">.</span></a>
+                    <span>A little cat journal · Made with love</span>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
