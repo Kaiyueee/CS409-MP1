@@ -28,6 +28,10 @@ module.exports = {
         type: "asset",
       },
       {
+        test: /\.(mp4|webm|mov)$/i,
+        type: "asset/resource",
+      },
+      {
         test: /\.html$/i,
         loader: "html-loader",
       },
